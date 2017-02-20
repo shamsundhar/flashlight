@@ -1,0 +1,7 @@
+#Mon Feb 20 23:37:50 NZDT 2017
+base.0=E\:\\Partime-work\\FlashLight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_320962ca30cbdf715c7a03157bd26a7d8c753b07
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Partime-work\\FlashLight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b28398a62f4af5aa18655f1df2346044a98ea410\\classes.dex
+base.1=E\:\\Partime-work\\FlashLight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b28398a62f4af5aa18655f1df2346044a98ea410
+file.0=E\:\\Partime-work\\FlashLight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_320962ca30cbdf715c7a03157bd26a7d8c753b07\\classes.dex

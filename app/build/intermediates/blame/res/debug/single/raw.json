@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\raw\\light_switch_on.mp3",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\raw\\light_switch_on.mp3"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\raw\\light_switch_off.mp3",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\raw\\light_switch_off.mp3"
+    }
+]

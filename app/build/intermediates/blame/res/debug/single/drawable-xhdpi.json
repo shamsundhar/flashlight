@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_switch_off_gold.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-xhdpi\\btn_switch_off_gold.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_switch_on_gold.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-xhdpi\\btn_switch_on_gold.png"
+    }
+]

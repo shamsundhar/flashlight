@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radial_background"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dip"
+        android:src="@drawable/btn_switch_off_gold"
+        android:background="@null"
+        android:contentDescription="@null"
+        />
+    <TextView
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Share"
+        android:clickable="true"
+        android:textColor="@color/gold"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"/>
+    <TextView
+        android:id="@+id/btnRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encourage us"
+        android:clickable="true"
+        android:textColor="@color/gold"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@id/btnShare"
+        android:layout_marginRight="25dp"/>
+</RelativeLayout>

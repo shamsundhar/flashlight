@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_988840a32ba51b7a3803829836b07eb40a6b9871\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_05ef272f5b5bc1884b62a13d2439e22d049ea508\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_50cacaf432d9ab351fb2db3bd307f245d437b885\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_dbc9be1e9017e02bdd3a7d42b5edab2d335cce1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_8fe6f743544f8e3e782d6d89b18b3003a2f6e101\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_c84b848a9d6afee23f1b110e2fd437f0bf13d9c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_2cdc17821692a53eb8547552ef4205f888994097\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_0415228fe5134013fd265801dfb68c99d697138b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_0b1eff04364935bd5c3affa1ca6605a8f56b0aac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="15de7fa9dba12a11426f0c9e8e4852872a2986d6">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b28398a62f4af5aa18655f1df2346044a98ea410\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_a5d3146512093d71442ce3752813a27f52392543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_a8d2f1d229a7c0ddd596251b7c25d39b6f9b6e36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_4a5951a874202a7e275a2b55524f6c314e00896e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_6e3cf893709ed39cf9aaafddb0a2fc73df4e138c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_57ae3b2a099c74aae189fe8d3f1db2449d21fddf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_7af51269cfc5fa2315082102ca5e4ec9eb1372b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Partime-work\FlashLight\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a9f02cada7b54e7cd31e62aa5728ac1120f11fec">
+        <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_320962ca30cbdf715c7a03157bd26a7d8c753b07\classes.dex" />
+    </item>
+
+</items>

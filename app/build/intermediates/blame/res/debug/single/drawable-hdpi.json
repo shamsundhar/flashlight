@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_on_skyblue.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_on_skyblue.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_off_skyblue.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_off_skyblue.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_off_blue.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_off_blue.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_on.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_on.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_on_blue.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_on_blue.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_off_gold.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_off_gold.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_on_gold.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_on_gold.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_switch_off.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-hdpi\\btn_switch_off.png"
+    }
+]
