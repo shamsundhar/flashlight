@@ -23,7 +23,7 @@ public class TorchService extends Service {
     /** Called when the service is being created. */
     @Override
     public void onCreate() {
-        torchLight = new TorchLight(this);
+        torchLight = TorchLight.getInstance(this);
         torchLight.getCamera();
         mBinder = new MyBinder();
     }
@@ -31,6 +31,13 @@ public class TorchService extends Service {
     /** The service is starting, due to a call to startService() */
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        if(intent != null) {
+            if (intent.getBooleanExtra("FROM_WIDGET", false)) {
+                if (torchLight != null) {
+                    torchLight.turnOnFlash();
+                }
+            }
+        }
         return mStartMode;
     }
 
@@ -64,7 +71,7 @@ public class TorchService extends Service {
     }
 
     public class MyBinder extends Binder {
-        TorchService getService() {
+        public TorchService getService() {
             return TorchService.this;
         }
     }

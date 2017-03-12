@@ -15,8 +15,17 @@ public class TorchLight {
     MediaPlayer mp;
     private boolean isFlashOn;
     Context context;
-    public TorchLight(Context context)
-    {
+    private static TorchLight torchLight;
+    public static TorchLight getInstance(Context context){
+        if(torchLight == null){
+            torchLight = new TorchLight(context);
+        }
+        return torchLight;
+    }
+    private TorchLight(){
+
+    }
+    private TorchLight(Context context){
         this.context = context;
         getCamera();
     }
@@ -44,9 +53,6 @@ public class TorchLight {
             camera.setParameters(params);
             camera.startPreview();
             isFlashOn = true;
-
-            // changing button/switch image
-            // toggleButtonImage();
         }
 
     }

@@ -8,6 +8,10 @@
         "source": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_layout.xml",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\layout\\new_layout.xml"
+    },
+    {
         "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_search_view.xml"
     },

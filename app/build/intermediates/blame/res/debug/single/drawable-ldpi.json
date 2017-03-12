@@ -8,6 +8,10 @@
         "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-ldpi\\btn_switch_on_gold.png"
     },
     {
+        "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_widget_bulb_on.png",
+        "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-ldpi\\ic_widget_bulb_on.png"
+    },
+    {
         "merged": "E:\\Partime-work\\FlashLight\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\btn_switch_off_gold.png",
         "source": "E:\\Partime-work\\FlashLight\\app\\src\\main\\res\\drawable-ldpi\\btn_switch_off_gold.png"
     }

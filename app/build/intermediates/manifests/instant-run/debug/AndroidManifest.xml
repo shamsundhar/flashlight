@@ -30,11 +30,15 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.shyam.torchlight.MainActivity$switchButtonListener" />
+        <receiver android:name="com.shyam.torchlight.receivers.FlashLightWidgetReciever" >
+            <intent-filter>
+                <action android:name="COM_FLASHLIGHT" />
+            </intent-filter>
+        </receiver>
 
         <service android:name="com.shyam.torchlight.TorchService" />
 
-        <receiver android:name="com.shyam.torchlight.SimpleWidgetProvider" >
+        <receiver android:name="com.shyam.torchlight.New_WidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

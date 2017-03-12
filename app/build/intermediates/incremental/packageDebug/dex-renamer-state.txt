@@ -1,4 +1,4 @@
-#Mon Feb 20 23:37:50 NZDT 2017
+#Sun Mar 12 23:20:26 NZDT 2017
 base.0=E\:\\Partime-work\\FlashLight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_320962ca30cbdf715c7a03157bd26a7d8c753b07
 renamed.1=classes.dex
 renamed.0=classes2.dex

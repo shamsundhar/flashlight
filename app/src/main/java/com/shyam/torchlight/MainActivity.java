@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.appwidget.AppWidgetManager;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -25,6 +26,8 @@ import android.widget.RemoteViews;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.shyam.torchlight.receivers.FlashLightWidgetReciever;
+
 
 /**
  * Created by shyam on 2/18/2017.
@@ -35,7 +38,6 @@ public class MainActivity extends FragmentActivity {
     ImageButton btnSwitch;
     TextView share;
     TextView rating;
-    //  TorchLight torchLight = new TorchLight();
     TorchService mBoundService;
     boolean mServiceBound = false;
     private boolean hasFlash;
@@ -113,6 +115,11 @@ public class MainActivity extends FragmentActivity {
                     } else {
                         // turn on flash
                         mBoundService.getTorchLight().turnOnFlash();
+
+                        RemoteViews views = new RemoteViews(MainActivity.this.getPackageName(), R.layout.new_layout);
+                        views.setImageViewResource(R.id.imageView, R.drawable.ic_widget_bulb_on);
+                        AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(MainActivity.this);
+                        appWidgetManager.updateAppWidget(new ComponentName(MainActivity.this, New_WidgetProvider.class), views);
                     }
                     toggleButtonImage();
                 }
@@ -226,34 +233,19 @@ public class MainActivity extends FragmentActivity {
                 R.layout.mynotification);
 
         //the intent that is started when the notification is clicked (works)
-        Intent notificationIntent = new Intent(this, MainActivity.class);
-        PendingIntent pendingNotificationIntent = PendingIntent.getActivity(this, 0,
+        Intent notificationIntent = new Intent(this, FlashLightWidgetReciever.class);
+        notificationIntent.putExtra("CLEAR_NOTIFICATIONS", true);
+        notificationIntent.putExtra("STOP_SERVICE", true);
+        PendingIntent pendingNotificationIntent = PendingIntent.getBroadcast(this, 0,
                 notificationIntent, 0);
 
         notification.contentView = notificationView;
         notification.contentIntent = pendingNotificationIntent;
         notification.flags |= Notification.FLAG_NO_CLEAR;
 
-        //this is the intent that is supposed to be called when the
-        //button is clicked
-        Intent switchIntent = new Intent(this, switchButtonListener.class);
-        PendingIntent pendingSwitchIntent = PendingIntent.getBroadcast(this, 0,
-                switchIntent, 0);
-
-        notificationView.setOnClickPendingIntent(R.id.closeOnFlash,
-                pendingSwitchIntent);
-
         notificationManager.notify(1, notification);
     }
 
-
-    public static class switchButtonListener extends BroadcastReceiver {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            context.stopService(new Intent(context, TorchService.class));
-            NotificationUtil.getNotificationManager().cancelAll();
-        }
-    }
     private ServiceConnection mServiceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {

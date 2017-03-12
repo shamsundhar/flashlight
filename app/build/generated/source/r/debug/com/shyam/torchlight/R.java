@@ -1769,21 +1769,16 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f02004d;
         public static final int abc_textfield_search_material=0x7f02004e;
         public static final int abc_vector_test=0x7f02004f;
-        public static final int btn_switch_off=0x7f020050;
-        public static final int btn_switch_off_blue=0x7f020051;
-        public static final int btn_switch_off_gold=0x7f020052;
-        public static final int btn_switch_off_skyblue=0x7f020053;
-        public static final int btn_switch_on=0x7f020054;
-        public static final int btn_switch_on_blue=0x7f020055;
-        public static final int btn_switch_on_gold=0x7f020056;
-        public static final int btn_switch_on_skyblue=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
-        public static final int notification_template_icon_bg=0x7f02005a;
-        public static final int radial_background=0x7f020059;
+        public static final int btn_switch_off_gold=0x7f020050;
+        public static final int btn_switch_on_gold=0x7f020051;
+        public static final int ic_launcher=0x7f020052;
+        public static final int ic_widget_bulb_on=0x7f020053;
+        public static final int notification_template_icon_bg=0x7f020055;
+        public static final int radial_background=0x7f020054;
     }
     public static final class id {
         public static final int action0=0x7f0c005a;
-        public static final int actionButton=0x7f0c0069;
+        public static final int actionButton=0x7f0c0068;
         public static final int action_bar=0x7f0c0045;
         public static final int action_bar_activity_content=0x7f0c0000;
         public static final int action_bar_container=0x7f0c0044;
@@ -1812,7 +1807,6 @@ containing a value of this type.
         public static final int cancel_action=0x7f0c005b;
         public static final int checkbox=0x7f0c003c;
         public static final int chronometer=0x7f0c0061;
-        public static final int closeOnFlash=0x7f0c0059;
         public static final int collapseActionView=0x7f0c001e;
         public static final int contentPanel=0x7f0c0034;
         public static final int custom=0x7f0c003a;
@@ -1830,14 +1824,14 @@ containing a value of this type.
         public static final int icon=0x7f0c002c;
         public static final int ifRoom=0x7f0c001f;
         public static final int image=0x7f0c0029;
-        public static final int imageView=0x7f0c0067;
+        public static final int imageView=0x7f0c0059;
         public static final int info=0x7f0c0065;
         public static final int line1=0x7f0c005f;
         public static final int line3=0x7f0c0063;
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c002b;
         public static final int media_actions=0x7f0c005d;
-        public static final int menu_settings=0x7f0c006a;
+        public static final int menu_settings=0x7f0c0069;
         public static final int middle=0x7f0c001c;
         public static final int multiply=0x7f0c0014;
         public static final int never=0x7f0c0020;
@@ -1879,7 +1873,7 @@ containing a value of this type.
         public static final int text=0x7f0c0064;
         public static final int text2=0x7f0c0062;
         public static final int textSpacerNoButtons=0x7f0c0037;
-        public static final int textView=0x7f0c0068;
+        public static final int textView=0x7f0c0067;
         public static final int time=0x7f0c0060;
         public static final int title=0x7f0c002d;
         public static final int title_template=0x7f0c0032;
@@ -1925,19 +1919,20 @@ containing a value of this type.
         public static final int abc_select_dialog_material=0x7f030019;
         public static final int activity_main=0x7f03001a;
         public static final int mynotification=0x7f03001b;
-        public static final int notification_media_action=0x7f03001c;
-        public static final int notification_media_cancel_action=0x7f03001d;
-        public static final int notification_template_big_media=0x7f03001e;
-        public static final int notification_template_big_media_narrow=0x7f03001f;
-        public static final int notification_template_lines=0x7f030020;
-        public static final int notification_template_media=0x7f030021;
-        public static final int notification_template_part_chronometer=0x7f030022;
-        public static final int notification_template_part_time=0x7f030023;
-        public static final int select_dialog_item_material=0x7f030024;
-        public static final int select_dialog_multichoice_material=0x7f030025;
-        public static final int select_dialog_singlechoice_material=0x7f030026;
-        public static final int simple_widget=0x7f030027;
-        public static final int support_simple_spinner_dropdown_item=0x7f030028;
+        public static final int new_layout=0x7f03001c;
+        public static final int notification_media_action=0x7f03001d;
+        public static final int notification_media_cancel_action=0x7f03001e;
+        public static final int notification_template_big_media=0x7f03001f;
+        public static final int notification_template_big_media_narrow=0x7f030020;
+        public static final int notification_template_lines=0x7f030021;
+        public static final int notification_template_media=0x7f030022;
+        public static final int notification_template_part_chronometer=0x7f030023;
+        public static final int notification_template_part_time=0x7f030024;
+        public static final int select_dialog_item_material=0x7f030025;
+        public static final int select_dialog_multichoice_material=0x7f030026;
+        public static final int select_dialog_singlechoice_material=0x7f030027;
+        public static final int simple_widget=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
     }
     public static final class menu {
         public static final int activity_main=0x7f0e0000;
@@ -1985,6 +1980,7 @@ containing a value of this type.
         public static final int menu_settings=0x7f070025;
         public static final int search_menu_title=0x7f070013;
         public static final int status_bar_notification_info_overflow=0x7f070014;
+        public static final int tap_notification=0x7f070026;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09008a;

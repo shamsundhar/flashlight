@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="15de7fa9dba12a11426f0c9e8e4852872a2986d6">
+        sha1="6bbf2ac40da0959e650ab143a8f1304c871a7b63">
         <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b28398a62f4af5aa18655f1df2346044a98ea410\classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="a9f02cada7b54e7cd31e62aa5728ac1120f11fec">
+        sha1="815fc77c957e4f77943a06a5cc18498b571ce56f">
         <dex dex="E:\Partime-work\FlashLight\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_320962ca30cbdf715c7a03157bd26a7d8c753b07\classes.dex" />
     </item>
 

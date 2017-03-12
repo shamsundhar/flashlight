@@ -4,7 +4,8 @@
     <string name = "app_name">Torch</string>
     <string name = "menu_settings">Settings</string>
     <string name = "appImage">app_name</string>
-    <string name = "flashLightOn">Torch is On</string>
+    <string name = "flashLightOn">Torch is on</string>
+    <string name = "tap_notification">Tap to make it off</string>
     <string name = "close">Close</string>
 
 </resources>
